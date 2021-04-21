@@ -4,7 +4,7 @@ import (
 	"testing"
 )
 
-func TestCalculation(t *testing.T) {
+func Test_сalc(t *testing.T) {
 	cases := []struct {
 		Description string
 		n           int
@@ -28,7 +28,7 @@ func TestCalculation(t *testing.T) {
 	}
 }
 
-func TestErrors(t *testing.T) {
+func TestCount(t *testing.T) {
 	cases := []struct {
 		Description string
 		n           int
