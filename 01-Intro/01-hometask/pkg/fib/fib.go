@@ -11,7 +11,6 @@ func Count(n int) (int, error) {
 	default:
 		return count(n), nil
 	}
-
 }
 
 func count(n int) int {
