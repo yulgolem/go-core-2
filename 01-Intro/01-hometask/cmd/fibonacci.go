@@ -6,6 +6,12 @@ import (
 )
 
 func main() {
-	var x = fib.Count(100)
+	var x, err = fib.Count(100)
+	if err != nil {
+		fmt.Println(err)
+		return
+	}
+
 	fmt.Println(x)
+
 }
